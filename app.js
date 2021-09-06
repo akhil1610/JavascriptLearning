@@ -125,15 +125,15 @@ const users = [
 // ====================================================================
 
 // closure concept
-function outer(b) {
-    var a = 10;
-    // var c= c;
-    function inner(c) {
-        console.log(a, b, c);
-    }
-    return inner;
-}
-outer("belanekar")("akhil");
+// function outer(b) {
+//     var a = 10;
+//     // var c= c;
+//     function inner(c) {
+//         console.log(a, b, c);
+//     }
+//     return inner;
+// }
+// outer("belanekar")("akhil");
 
 // function outermost() {
 //     var someting = "2000sda";
@@ -230,9 +230,6 @@ console.log(arr);
 // //buind method
 // let printName = printfullName.bind(subname2,"sawant","wadi"); //buind method will buind everything and return  this method can be invokd later
 // console.log(printName);//this will return whole function not the values 
-// printName();//this will exicute as a function 
-
-
-
+// printName();//this will exicute as a function
 
 
